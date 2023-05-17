@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.seccion-presentacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 6px;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+p {
+    font-size: 3em;
+}
+
+.descripcion-marca {
+    padding: 0px 200px;
+    text-align: center;
+}
+
+.grilla {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    font-size: 5px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 250px;
+    padding: 30px;
+    margin: 10px;
+}
+
+h3 {
+    font-size: 4em;
+}
+
+.precio {
+    font-size: 5em;
+}
+
+.figure {
+    display: flex;
+    width: 300px;
+    height: 300px;
+}
+
+img {
+    width: 100%;
+}
+
+@media (max-width: 780px) {
+    
+    .card {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 500px;
+    }
+    .seccion-presentacion {
+        align-items: start;
+    }
+    .descripcion-marca {
+        padding: 0%;
+        text-align: start;
+    }
+    
+}
+
+@media(max-width:480px){
+    .seccion-presentacion {
+        font-size: 6px;
+    }
+    .descripcion {
+        font-size: 4px;
+    }
+}
+
+@media(max-width:380px){
+    .seccion-presentacion {
+        font-size: 5px;
+    }
+    .descripcion {
+        font-size: 3px;
+    }
+}
+
+@media(max-width:330px){
+    .seccion-presentacion {
+        font-size: 4px;
+    }
+    .descripcion {
+        font-size: 2px;
+    }
+}
+
+@media(max-width:300px){
+    .seccion-presentacion {
+        font-size: 3px;
+    }
+    .descripcion {
+        font-size: 1px;
+    }
+}
